@@ -60,9 +60,9 @@ const skierCode = (weight, height, type, age) => {
 }
 
 /* calculate sole length code, input must be in mm */
-const soleLengthCode = (sole) => {
+const soleLengthCode = sole => {
  if (sole >= 351)
-   return SOLE_SCALE.length + 1
+   return SOLE_SCALE.length
  return SOLE_SCALE.findIndex(e => sole < e)
 }
 
