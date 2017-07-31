@@ -1,12 +1,15 @@
 # din-setting
 This script calculates the din-setting for ski bindings.
 To use:
-Pass the dinSetting function the following args:
-weight(lb),
-height(in),
-skier type(if you are unsure what this is, go with 1),
-age(years),
-sole(mm)
+pass an options object to the DinSetting class
 
-dinSetting(weight, height, type, age, sole)
+ex:
+const options = {
+  weight: 212, //lb
+  height: 78,  //in
+  sole: 270,   //mm
+  age: 30,    //years
+  type: 1     //if you are unsure what this is, go with 1
+};
 
+new DinSetting(options)

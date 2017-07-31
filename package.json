@@ -1,0 +1,26 @@
+{
+  "name": "din-setting",
+  "version": "1.0.0",
+  "description": "This script calculates the din-setting for ski bindings. To use: Pass the dinSetting function the following args: weight(lb), height(in), skier type(if you are unsure what this is, go with 1), age(years), sole(mm)",
+  "main": "din-setting.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielstecki/din-setting.git"
+  },
+  "author": "Daniel Stecki <danieltstecki@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielstecki/din-setting/issues"
+  },
+  "homepage": "https://github.com/danielstecki/din-setting#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.4.1"
+  }
+}
