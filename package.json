@@ -2,7 +2,7 @@
   "name": "din-setting",
   "version": "1.0.0",
   "description": "This script calculates the din-setting for ski bindings. To use: Pass the dinSetting function the following args: weight(lb), height(in), skier type(if you are unsure what this is, go with 1), age(years), sole(mm)",
-  "main": "din-setting.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "webpack"
   },
