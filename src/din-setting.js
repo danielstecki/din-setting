@@ -26,14 +26,7 @@ const DIN_CHART = [
 
 class DinSetting {
   constructor(options) {
-    this.options = {
-      weight: 30,
-      height: 59,
-      type: 1,
-      age: 1,
-      sole: 230,
-      ...options
-    };
+    this.options = options;
 
     return { dinSetting: this.calcDinSetting() };
   }
